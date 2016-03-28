@@ -14,6 +14,10 @@ namespace HelloGit.Controllers
         {
             Response.Write("Hello Github");
         }
+        public void Index()
+        {
+            Response.Write("foobar");
+        }
 
     }
 }
